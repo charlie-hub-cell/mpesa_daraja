@@ -9,7 +9,7 @@ $BusinessShortCode = '174379';
 $Timestamp = date('YmdHis');
 // ENCRIPT  DATA TO GET PASSWORD
 $Password = base64_encode($BusinessShortCode . $passkey . $Timestamp);
-$phone = '254742858962';//phone number to receive the stk push
+$phone = '254707954732';//phone number to receive the stk push
 $money = '1';
 $PartyA = $phone;
 $PartyB = '25474277482';

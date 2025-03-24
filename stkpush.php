@@ -9,10 +9,10 @@ $BusinessShortCode = '174379';
 $Timestamp = date('YmdHis');
 // ENCRIPT  DATA TO GET PASSWORD
 $Password = base64_encode($BusinessShortCode . $passkey . $Timestamp);
-$phone = '0748983441';//phone number to receive the stk push
+$phone = '254748983441';//phone number to receive the stk push
 $money = '1';
 $PartyA = $phone;
-$PartyB = '254708374149';
+$PartyB = '2547427748';
 $AccountReference = 'TREC';
 $TransactionDesc = ' charles stkpush test';
 $Amount = $money;
